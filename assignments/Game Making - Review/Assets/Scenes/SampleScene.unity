@@ -1800,7 +1800,7 @@ MonoBehaviour:
   isFlying: 1
   isCreated: 0
   rings: 0
-  colorOne: {r: 0.83940625, g: 0.6554379, b: 0.9716981, a: 0}
+  colorOne: {r: 0, g: 0.28475785, b: 1, a: 0}
   colorTwo: {r: 0.23425984, g: 0.9433962, b: 0.022249907, a: 0}
   colorThree: {r: 1, g: 0.6, b: 0, a: 0}
 --- !u!4 &1712555272
