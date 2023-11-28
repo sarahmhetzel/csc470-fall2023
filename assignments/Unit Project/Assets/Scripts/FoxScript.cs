@@ -8,7 +8,7 @@ public class FoxScript : MonoBehaviour
     GameObject characterCamera;
     float forwardSpeed = 15;
     float rotateSpeed = 100;
-    public Transform firePosition;
+    //public Transform firePosition;
     public GameObject projectilePrefab;
 
     float yVelocity = 0;
@@ -55,8 +55,10 @@ public class FoxScript : MonoBehaviour
     {
         GameObject obj = ObjectPooling.current.GetPooledObject();
         if (obj == null) return;
-        obj.transform.position = firePosition.position;
-        obj.transform.rotation = firePosition.rotation;
+        Vector3 firePosition = transform.position + transform.forward * 5;
+        obj.transform.position = firePosition;
+        Rigidbody rb = obj.GetComponent<Rigidbody>();
+        rb.AddForce(obj.transform.forward * 2000);
         obj.SetActive(true);
 
         //Vector3 inFront = transform.position + transform.forward * 5;
