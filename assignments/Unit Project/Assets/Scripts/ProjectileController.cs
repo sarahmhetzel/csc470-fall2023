@@ -22,6 +22,7 @@ public class ProjectileController : MonoBehaviour
     void Start()
     {
         rb.velocity = Vector3.up * projectileSpeed;
+        rb.velocity = transform.forward * projectileSpeed;
     }
 
     void Disable()
@@ -39,8 +40,12 @@ public class ProjectileController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<HealthController>().TakeDamage(damage);
             Destroy(gameObject);
+            if (other.CompareTag("enemy"))
+            {
+                Destroy(other.gameObject);
+            }
+
         }
     }
 

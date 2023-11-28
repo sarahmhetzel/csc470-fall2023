@@ -26,9 +26,9 @@ public class ObjectPooling : MonoBehaviour
 
     public GameObject GetPooledObject()
     {
-        for (int i =0; i<pooledObjects.Count; i++)
+        for (int i =0; i < pooledObjects.Count; i++)
         {
-            if (pooledObjects[i].activeInHierarchy)
+            if (!pooledObjects[i].activeInHierarchy)
             {
                 return pooledObjects[i];
             }

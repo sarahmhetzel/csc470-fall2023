@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     {
         if (SharedInstance != null)
         {
-            Debug.Log("Why is there more than one enemy controller?");
+            Debug.Log("multiple controllers for multiple enemies!");
         }
         SharedInstance = this;
 
@@ -31,7 +31,6 @@ public class Enemy : MonoBehaviour
     {
         waveSpawn = GetComponentInParent<EnemyScript>();
         target = GameObject.Find("FoxPrefab").transform;
-
     }
 
     // Update is called once per frame
@@ -43,7 +42,6 @@ public class Enemy : MonoBehaviour
             transform.LookAt(target);
             moveDirection = direction;
         }
-        //transform.Translate(transform.forward * speed * Time.deltaTime);
 
         countdown -= Time.deltaTime;
 
@@ -58,20 +56,5 @@ public class Enemy : MonoBehaviour
     {
         rb.velocity = new Vector3(moveDirection.x, moveDirection.y) * moveSpeed;
     }
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.CompareTag("projectile"))
-    //    {
-    //        Destroy(other.gameObject);
-    //        Destroy(gameObject);
-
-    //        if (countdown <= 0)
-    //        {
-    //            waveSpawn.waves[waveSpawn.currentWave].remainingEnemies = (waveSpawn.waves[waveSpawn.currentWave].remainingEnemies) - 1;
-    //        }
-
-    //    }
-    //}
 
 }

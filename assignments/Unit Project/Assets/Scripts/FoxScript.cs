@@ -28,6 +28,7 @@ public class FoxScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
+            //Instantiate(projectilePrefab, firePosition.position, firePosition.rotation);
             Shoot();
             Debug.Log("shooting");
         }
@@ -57,11 +58,11 @@ public class FoxScript : MonoBehaviour
         obj.transform.position = firePosition.position;
         obj.transform.rotation = firePosition.rotation;
         obj.SetActive(true);
-            //Vector3 inFront = transform.position + transform.forward * 5;
-            //GameObject projectile = Instantiate(projectilePrefab, inFront, transform.rotation);
 
-            //Rigidbody rb = projectile.GetComponent<Rigidbody>();
-            //rb.AddForce(projectile.transform.forward * 2000);
+        //Vector3 inFront = transform.position + transform.forward * 5;
+        //GameObject projectile = Instantiate(projectilePrefab, inFront, transform.rotation);
+        //Rigidbody rb = obj.GetComponent<Rigidbody>();
+        //rb.AddForce(obj.transform.forward * 2000);
     }
 
 }

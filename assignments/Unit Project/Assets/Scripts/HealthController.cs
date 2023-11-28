@@ -46,6 +46,22 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("mouse"))
+        {
+            TakeDamage(10f);
+        }
+        if (other.CompareTag("wolf"))
+        {
+            TakeDamage(15f);
+        }
+        if (other.CompareTag("bear"))
+        {
+            TakeDamage(30f);
+        }
+    }
+
     private void Die()
     {
         Debug.Log("you died");
