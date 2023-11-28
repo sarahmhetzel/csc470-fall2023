@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{07535E30-BB9A-277E-42D3-0E088FD10F3C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectileController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FoxScript.cs">
     <Files>
       <File FileName="Assets/Scripts/ProjectileController.cs" Line="42" Column="10" />
-      <File FileName="Assets/Scripts/HealthController.cs" />
+      <File FileName="Assets/Scripts/HealthController.cs" Line="62" Column="10" />
       <File FileName="Assets/Scripts/HealthBar.cs" />
       <File FileName="Assets/Scripts/ObjectPooling.cs" />
-      <File FileName="Assets/Scripts/FoxScript.cs" />
-      <File FileName="Assets/Scripts/EnemyController.cs" />
+      <File FileName="Assets/Scripts/FoxScript.cs" Line="59" Column="31" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="44" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
