@@ -43,6 +43,19 @@ public class PlayerController : MonoBehaviour
             {
                 yVelocity = jumpForce;
             }
+
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                Vector3 positionToRayCastFrom = transform.position + Vector3.up * 1.8f;
+                Ray ray = new Ray(positionToRayCastFrom, transform.forward);
+                RaycastHit hit; // this is the result of having done the raycast
+                if(Physics.Raycast(ray, out hit))
+                {
+                    // if we get in here, we hit something
+                    // 'hit' contains informaiton about what we hit
+                    Destroy(hit.collider.gameObject);
+                }
+            }
         }
 
 
@@ -59,4 +72,6 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
+
+   
 }

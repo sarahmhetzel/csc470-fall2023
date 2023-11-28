@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{A0D0DE61-02A2-A5EA-B601-B87861B7851F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FoxScript.cs">
+    <Files>
+      <File FileName="Assets/GameManager.cs" Line="10" Column="9" />
+      <File FileName="Assets/FoxScript.cs" Line="51" Column="9" />
+      <File FileName="Assets/ResourceController.cs" Line="33" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ef87b70c-aad9-4ec6-9fee-55ebb571261e" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
