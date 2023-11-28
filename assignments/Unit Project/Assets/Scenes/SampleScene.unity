@@ -364,8 +364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc4c02de11f24808af0f27e66c5e30d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 7130408306478364855, guid: 6212d68c3494244638db47ea989454a6, type: 3}
-  pooledAmount: 10
+  pooledObject: {fileID: 7130408306478364855, guid: 250a430759d6748199f45d3fb0e056b9, type: 3}
+  pooledAmount: 20
 --- !u!4 &230671559
 Transform:
   m_ObjectHideFlags: 0
@@ -1766,8 +1766,8 @@ MonoBehaviour:
     remainingEnemies: 0
   - enemies:
     - {fileID: -3050324935803190863, guid: bc0c9e38fda5a4258b5b002cfe5e0f70, type: 3}
-    nextEnemy: 1
-    nextWave: 3
+    nextEnemy: 10
+    nextWave: 10
     remainingEnemies: 0
   currentWave: 0
 --- !u!4 &1450198499
@@ -3359,7 +3359,7 @@ PrefabInstance:
     - target: {fileID: 9220827820988558722, guid: 1a369f4b19cc74d47b3e9d22c8a3b188, type: 3}
       propertyPath: projectilePrefab
       value: 
-      objectReference: {fileID: 7130408306478364855, guid: 6212d68c3494244638db47ea989454a6, type: 3}
+      objectReference: {fileID: 7130408306478364855, guid: 250a430759d6748199f45d3fb0e056b9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
