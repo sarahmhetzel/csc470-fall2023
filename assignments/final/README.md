@@ -4,10 +4,10 @@
 The camera will follow a character that the user controls as they travel on the surface of a planet. They will collect different items to rebuild their spaceship and also collect oxygen tanks to keep their oxygen level from depleting too much. The game is won when the user is able to collect all the pieces to the spaceship to rebuild it, and the game is lost if they run out of oxygen. The world will be contained by cliffs around the edges of the playable space that the character is not able to jump over. 
 
 ## Input:
-The input from the user will be in the form of controls. They will be able to use WASD or the arrow keys to control the main character of the game as they travel across the planet. 
+The input from the user will be in the form of controls. They will be able to use W, A, S, and D or the arrow keys to control the main character of the game as they travel across the planet. 
 
 ## Visual Style:
-The game will be in a 3-D style with lots of color and cute, non super realistic characters and objects. The colors will be mostly blues, pinks, and purples and there will be some particles showing where the different objects are that the user must collect as well as the oxygen tanks that they can pick up. 
+The game will be in a 3-D style with lots of color and cute, non super realistic characters and objects. The colors will be mostly blues, pinks, and purples and there will be some particles showing where the different objects are that the user must collect as well as the oxygen tanks that they can pick up. I would like it to have the feel of and indie style game, so a bit cozy and cute with bright, warm, colors, rather than dark and harsh tones. 
 
 ## Audio Style:
 There will be a little song playing throughout. There will be sound effects when a character collects oxygen, when they collect a piece to the spaceship, and when they complete the game. If time allows, there will also be sound effects to indicate when oxygen is getting low. 
@@ -30,10 +30,14 @@ The high bar will have all the characteristics as the target level, but will als
 
 ## A timeline of what you need to accomplish and by when to complete your game on time:
 
-Friday, December 1st: Design Document completed
+### Friday, December 1st: 
+Design Document completed, begin working on unity project. 
 
-Tuesday, December 5th: Get the game working with the character able to move around and the scene designed, begin to work on scripts to get the character to collect the pieces to the spaceship.
+### Tuesday, December 5th: 
+Get the game working with the character able to move around and the scene designed, begin to work on scripts to get the character to collect the pieces to the spaceship.
 
-Friday, December 8th: Finish the aspect of the game that allows the player to pick up the pieces of the spaceship, begin to implement the oxygen tank system. 
+### Friday, December 8th: 
+Finish the aspect of the game that allows the player to pick up the pieces of the spaceship, begin to implement the oxygen tank system. 
 
-Final Due Date, December 15th: project completed
+### Final Due Date, December 15th: 
+Project completed.
