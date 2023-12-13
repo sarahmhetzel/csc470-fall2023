@@ -2,16 +2,16 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FoxScript.cs">
     <Files>
       <File FileName="Assets/Scripts/ProjectileController.cs" Line="42" Column="10" />
-      <File FileName="Assets/Scripts/HealthController.cs" Line="62" Column="10" />
+      <File FileName="Assets/Scripts/HealthController.cs" />
       <File FileName="Assets/Scripts/HealthBar.cs" />
       <File FileName="Assets/Scripts/ObjectPooling.cs" />
       <File FileName="Assets/Scripts/FoxScript.cs" Line="59" Column="31" />
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="44" Column="10" />
+      <File FileName="Assets/Scripts/EnemyController.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f5d2abe3-e988-4f19-95eb-6f52b856af02" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="86290d80-2f7e-4d8d-94bc-2aa110b41d27" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
