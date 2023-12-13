@@ -4920,7 +4920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4148feaf7b654f0991c950945f60042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fillAmount: 10
+  fillAmount: 15
 --- !u!136 &4712428690520398184
 CapsuleCollider:
   m_ObjectHideFlags: 0
