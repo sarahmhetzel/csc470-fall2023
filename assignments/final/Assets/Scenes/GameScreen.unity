@@ -4363,7 +4363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxOxygen: 100
   oxygenBar: {fileID: 1743030381}
-  airDecrease: 5
+  airDecrease: 2
 --- !u!143 &1845675253
 CharacterController:
   m_ObjectHideFlags: 0

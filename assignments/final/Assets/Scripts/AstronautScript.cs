@@ -9,7 +9,7 @@ public class AstronautScript : MonoBehaviour
     public CharacterController cc;
 
     float forwardSpeed = 15;
-    float rotateSpeed = 150;
+    float rotateSpeed = 100;
     float yVelocity = 0;
     float jumpForce = 10;
 
